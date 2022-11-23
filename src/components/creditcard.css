@@ -1,0 +1,48 @@
+.pgHead{
+    margin-bottom: 10%;
+  }
+  .headerApp {
+      text-align: left;
+      margin-left: 3%;
+      margin-right: 70%;
+      padding-top: 1%;
+    }
+  
+    .label{
+      margin-bottom: 5%;
+    }
+  
+    .btn-primary{
+      color: #fff;
+      background-color: #b5bac1;
+      border-color: #b5bac1;
+    }
+  
+    .btn{
+      padding: 0.375rem 2.75rem;
+    }
+  
+    .tableApp {
+      text-align: left;
+      margin-left: 3%;
+      margin-right: 20%;
+      padding-top: 1%;
+    }
+    table {
+      width: 100%;
+      font-family: IBM Plex Sans, sans-serif;
+      font-size: 0.875rem;
+      border-collapse: collapse;
+      }
+      
+      td,
+      th {
+        border: 1px solid black;
+        text-align: center;
+        padding: 6px;
+      }
+    
+      th {
+        background-color: #b5bac1;
+        text-align: center;
+      }
