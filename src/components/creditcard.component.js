@@ -32,7 +32,7 @@ export default class CreditCard extends Component {
                 "Access-Control-Allow-Origin": '*'
             }
         }
-        axios.get("http://35.230.159.224:8080/creditCard/v1/getAllCreditCards", headers)
+        axios.get("http://35.246.72.180:8080/creditCard/v1/getAllCreditCards", headers)
             .then(response => {
                 if (response.data.statusMsg === 'SUCCESS') {
                     console.log("status message : " + response.data.statusMsg);
@@ -83,7 +83,7 @@ export default class CreditCard extends Component {
                     "Access-Control-Allow-Origin": '*'
                 }
             }
-            axios.post("http://35.230.159.224:8080/creditCard/v1/addNewCard", payLoad, headers
+            axios.post("http://35.246.72.180:8080/creditCard/v1/addNewCard", payLoad, headers
             )
                 .then(response => {
                     if (response.data.statusMsg === 'SUCCESS') {
